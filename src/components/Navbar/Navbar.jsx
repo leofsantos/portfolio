@@ -23,13 +23,13 @@ export const Navbar = () => {
             <a href="#skills" className={styles.link}>Skills</a>
           </li>
           <li>
-            <a href="#Projects" className={styles.link}>Projects</a>
+            <a href="#projects" className={styles.link}>Projects</a>
           </li>
           <li>
-            <a href="#Contact" className={styles.link}>Contact</a>
+            <a href="#contact" className={styles.link}>Contact</a>
           </li>
           <li className={styles.resume}>
-            <button>Resume</button>
+            <button><a href="/assets/pdf/Leonardo-dos-Santos-Cv.pdf" download="">Resume</a></button>
           </li>
         </ul>
       </div>
