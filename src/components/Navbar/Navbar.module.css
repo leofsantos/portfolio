@@ -9,6 +9,7 @@
   height: 80px;
   transition: background-color 0.4s, box-shadow 0.4s;
   padding-right: 100px;
+  z-index: 1;
 }
 
 .logo {
