@@ -94,12 +94,7 @@
   padding-top: 0.9vw;
 }
 
-.rectangleBtn:hover {
-  background-color: var(--color-highlight);
-  transition: 0.5s;
-}
-
-.roundBtn:hover {
+.rectangleBtn:hover, .roundBtn:hover {
   background-color: var(--color-highlight);
   transition: 0.5s;
 }
@@ -166,4 +161,24 @@
 .toggle:hover {
   color: var(--color-highlight);
   filter: drop-shadow(0 0 22px var(--color-highlight));
+}
+
+@media screen and (max-width: 920px) {
+  .home {
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-secondary) 0%,
+      var(--color-secondary) 30%,
+      var(--color-main) 30%,
+      var(--color-main) 100%
+    );
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container, .profile, ::content, .picture{
+    width: 300px;
+    height: 300px;
+  }
 }
