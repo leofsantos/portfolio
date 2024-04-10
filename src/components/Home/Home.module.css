@@ -1,0 +1,169 @@
+@import "../../vars.css";
+
+.home {
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    var(--color-secondary) 0%,
+    var(--color-secondary) 20%,
+    var(--color-main) 20%,
+    var(--color-main) 95%,
+    var(--color-secondary) 95%,
+    var(--color-secondary) 100%
+  );
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.container {
+  padding-block: 16px 48px;
+}
+
+/*====================  PROFILE PICTURE  ====================*/
+
+.profile {
+  width: 30vw;
+  height: 30vw;
+  background-color: var(--color-main);
+  border: 15px solid var(--color-secondary);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.4s;
+  margin-left: 2vw;
+}
+
+.picture {
+  width: 25vw;
+  height: 25vw;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*====================  BIO/INTRO  ====================*/
+
+.bio {
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0 13vw;
+  justify-content: center;
+}
+
+.socialMedia {
+  margin: 2vw;
+  display: flex;
+  padding-top: 2vw;
+  align-items: center;
+}
+
+.description {
+  margin-top: 0.1vw;
+}
+
+.description p {
+  margin-top: 2vw;
+}
+
+.roundBtn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 2.5vw;
+  height: 3.3vw;
+  border-radius: 50%;
+  border: 0px;
+  color: var(--color-secondary);
+  margin: 0 1.3vw;
+  padding-top: 0.6vw;
+  background-color: transparent;
+}
+
+.rectangleBtn {
+  width: 3vw;
+  height: 3vw;
+  background-color: transparent;
+  margin: 0 1.3vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 0.9vw;
+}
+
+.rectangleBtn:hover {
+  background-color: var(--color-highlight);
+  transition: 0.5s;
+}
+
+.roundBtn:hover {
+  background-color: var(--color-highlight);
+  transition: 0.5s;
+}
+
+.socialMediaLink {
+  text-decoration: none;
+  font-size: 4vw;
+  color: var(--color-secondary);
+}
+
+/*====================  CALL TO ACTION  ====================*/
+
+.callToAction button {
+  width: 8vw;
+  height: 8vw;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 8vw;
+
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.callToAction button:hover {
+  transition: 0.5s;
+  filter: drop-shadow(0 0 32px var(--color-highlight));
+  border: 2.5px solid var(--color-highlight);
+}
+
+.contact {
+  color: var(--color-highlight);
+  font-size: 2.5vw;
+  rotate: 270deg;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle {
+  color: var(--color-main);
+  text-decoration: none;
+  padding: 15px;
+}
+
+.toggle:hover {
+  color: var(--color-highlight);
+  filter: drop-shadow(0 0 22px var(--color-highlight));
+}
