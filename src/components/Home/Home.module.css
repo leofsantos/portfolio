@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: position 0.5s ease-in-out;
 }
 
 /*====================  BIO/INTRO  ====================*/
@@ -50,7 +51,7 @@
 .bio {
   text-align: center;
   font-size: 1.5vw;
-  margin: 0 13vw;
+  margin: 0 22vw 0 13vw;
   justify-content: center;
 }
 
@@ -94,7 +95,8 @@
   padding-top: 0.9vw;
 }
 
-.rectangleBtn:hover, .roundBtn:hover {
+.rectangleBtn:hover,
+.roundBtn:hover {
   background-color: var(--color-highlight);
   transition: 0.5s;
 }
@@ -115,7 +117,6 @@
   border: 0;
   cursor: pointer;
   justify-content: center;
-  margin-left: 8vw;
 
   animation-name: floating;
   animation-duration: 2s;
@@ -168,17 +169,72 @@
     background-image: linear-gradient(
       to bottom,
       var(--color-secondary) 0%,
-      var(--color-secondary) 30%,
-      var(--color-main) 30%,
+      var(--color-secondary) 25%,
+      var(--color-main) 25%,
       var(--color-main) 100%
     );
-    transition: 0.5s;
+    height: 850px;
+    transition: all 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
   }
 
-  .container, .profile, ::content, .picture{
+  .picture {
+    width: 250px;
+    height: 250px;
+  }
+
+  .profile {
     width: 300px;
     height: 300px;
+  }
+
+  .bio {
+    font-size: 18px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .description p {
+    margin-top: 50px;
+  }
+
+  .socialMediaLink {
+    font-size: 48px;
+  }
+
+  .socialMedia {
+    margin: none;
+    padding-top: 60px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .roundBtn,
+  .rectangleBtn {
+    width: 33px;
+    height: 33px;
+    border: none;
+  }
+
+  .callToAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .callToAction button {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contact {
+    rotate: 0deg;
+    width: 30px;
+  }
+
+  .toggle {
+    font-size: 38px;
   }
 }
