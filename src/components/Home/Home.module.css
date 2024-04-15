@@ -186,17 +186,33 @@
 
 @media screen and (max-width: 920px) {
   .home {
-    background-image: linear-gradient(
-      to bottom,
-      var(--color-secondary) 0%,
-      var(--color-secondary) 25%,
-      var(--color-main) 25%,
-      var(--color-main) 100%
-    );
     height: 850px;
     transition: all 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
+  }
+
+  .main {
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-secondary) 0%,
+      var(--color-secondary) 20%,
+      var(--color-main) 20%,
+      var(--color-main) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+
+  .container {
+    padding-bottom: 0px;
+  }
+
+  .elipse1,
+  .elipse2 {
+    display: none;
   }
 
   .picture {
@@ -213,10 +229,11 @@
     font-size: 18px;
     justify-content: center;
     margin: 0;
+    padding-top: 20px;
   }
 
   .description p {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .socialMediaLink {
@@ -225,7 +242,7 @@
 
   .socialMedia {
     margin: none;
-    padding-top: 60px;
+    padding-top: 30px;
     justify-content: center;
     gap: 20px;
   }
