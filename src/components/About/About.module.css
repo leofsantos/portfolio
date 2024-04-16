@@ -1,0 +1,140 @@
+@import "../../vars.css";
+
+.container {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textContent {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.titleContainer {
+  padding-left: 45px;
+  width: 230px;
+}
+
+.sectionTitle {
+  letter-spacing: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.bioContainer {
+  padding: 0 30px;
+  width: 65vw;
+}
+
+.bio {
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.presentation {
+  padding-top: 60px;
+  max-width: 620px;
+  font-size: 16px;
+}
+
+.gradient0 {
+  color: var(--color-secondary);
+}
+
+.gradient1 {
+  color: var(--color-gradient1);
+}
+
+.gradient2 {
+  color: var(--color-gradient2);
+}
+
+.gradient3 {
+  color: var(--color-gradient3);
+}
+
+.gradient4 {
+  color: var(--color-gradient4);
+}
+
+.gradient5 {
+  color: var(--color-gradient5);
+}
+
+.callToActionContainer {
+  right: 0;
+  height: fit-content;
+  position: absolute;
+}
+
+.callToAction {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.informationBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.rectangle {
+  width: 70px;
+  height: 500px;
+  background-color: var(--color-secondary);
+  border-radius: 200px 0 0 0;
+}
+
+.toggle {
+  width: 60px;
+  height: 80px;
+  border: none;
+  border-radius: 100px 0 0 100px;
+  background-color: var(--color-secondary);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 24px;
+  color: var(--color-highlight);
+  transition: 0.5s width ease-in-out;
+}
+
+.toggle:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-highlight);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s width ease-in-out;
+}
+
+.toggle:hover .textInformation {
+  display: block;
+  margin: 0 20px;
+}
+
+.toggleContent {
+  margin-left: 20px;
+}
+
+.textInformation {
+  font-size: 18px;
+  display: none;
+  white-space: nowrap;
+}
