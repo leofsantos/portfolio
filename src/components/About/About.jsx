@@ -17,6 +17,13 @@ export const About = () => {
     </h1>
   ));
 
+  const titlesMobile = Array(3).fill("ABOUT");
+  const titleElementMobile = titlesMobile.map((title, index) => (
+    <h1 key={index} className={gradientStyles[index]}>
+      {title}
+    </h1>
+  ));
+
   return (
     <section className={styles.container} id="about">
       <div className={styles.textContent}>
@@ -24,27 +31,25 @@ export const About = () => {
           <div className={styles.sectionTitle}>
             <>{titleElements}</>
           </div>
+          <div className={styles.sectionTitleMobile}>
+            <>{titleElementMobile}</>
+          </div>
         </div>
         <div className={styles.bioContainer}>
-          <div className={styles.bio}>
-            <div className={styles.bioContent}>
-              <h3 className={styles.title}>
-                I'm Leo, a passionate builder in both physical and digital
-                realms!
-              </h3>
-              <p className={styles.presentation}>
-                From a young age, I've been captivated by the process of
-                creation, diving into new technologies, coding, and tackling
-                tough problems head-on. At Anheuser-Busch InBev, I thrived as a
-                Software Developer, contributing to a REST API project while
-                refining my teamwork and communication skills. <br /> <br />
-                Now, in <strong>Victoria - BC</strong>, I'm eager to channel my
-                enthusiasm and dedication into every endeavour. Whether it's
-                coding, collaborating, or embracing new challenges, I'm
-                committed to giving my best and making a meaningful impact.
-              </p>
-            </div>
-          </div>
+          <h3 className={styles.title}>
+            I'm Leo, a passionate builder in both physical and digital realms!
+          </h3>
+          <p className={styles.presentation}>
+            From a young age, I've been captivated by the process of creation,
+            diving into new technologies, coding, and tackling tough problems
+            head-on. At Anheuser-Busch InBev, I thrived as a Software Developer,
+            contributing to a REST API project while refining my teamwork and
+            communication skills. <br /> <br />
+            Now, in <strong>Victoria - BC</strong>, I'm eager to channel my
+            enthusiasm and dedication into every endeavour. Whether it's coding,
+            collaborating, or embracing new challenges, I'm committed to giving
+            my best and making a meaningful impact.
+          </p>
         </div>
       </div>
       <div className={styles.callToActionContainer}>
