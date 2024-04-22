@@ -1,0 +1,84 @@
+@import "../../vars.css";
+
+.container {
+  background-color: var(--color-secondary);
+  padding: 60px 30px;
+  width: 100%;
+  position: absolute;
+}
+
+.content {
+  border: 2px solid var(--color-main);
+  border-top: 16px solid var(--color-main);
+  border-bottom: 16px solid var(--color-main);
+  border-top-left-radius: 105px;
+  border-bottom-right-radius: 105px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 54px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  color: var(--color-main);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--color-main);
+  border-left: 2px solid var(--color-main);
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 76px;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  top: 0;
+  padding: 0 10px;
+}
+
+.skill {
+  color: var(--color-main);
+  width: 80px;
+  text-align: center;
+  margin: 30px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill i,
+.skill svg {
+  font-size: 34px;
+}
+
+.skill p {
+  margin-top: 5px;
+}
+
+.skill:hover {
+  color: var(--color-highlight);
+  cursor: pointer;
+  transition: 0.5s;
+  filter: drop-shadow(0 0 32px var(--color-highlight));
+}
+
+@media screen and (max-width: 920px) {
+  .skill {
+    margin: 30px 44px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .skill {
+    margin: 30px 22px;
+  }
+}
