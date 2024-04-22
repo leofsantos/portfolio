@@ -110,7 +110,7 @@
   align-items: center;
   margin: 5px 0;
   font-size: 24px;
-  color: var(--color-highlight);
+  color: var(--color-main);
   transition: 0.5s width ease-in-out;
 }
 
