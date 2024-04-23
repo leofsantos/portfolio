@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  height: fit-content;
+  height: 700px;
   flex-direction: column;
 }
 
