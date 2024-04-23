@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.content {
+  text-align: center;
+  color: var(--color-main);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 280px;
+  height: fit-content;
+  background-color: var(--color-secondary);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000000;
+}
+
+.text,
+.bottom {
+  text-align: start;
+}
+
+.bottom {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 110px;
+  align-items: center;
+}
+
+.bottom button {
+  text-transform: uppercase;
+  width: 100px;
+  height: 30px;
+  background-color: var(--color-main);
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+.bottom i {
+  font-size: 34px;
+  text-decoration: none;
+  color: var(--color-main);
+}
+
+.bottom a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.content img {
+  width: 240px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 10px;
+}
