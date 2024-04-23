@@ -1,0 +1,26 @@
+[
+    {
+        "imageSrc": "image.png",
+        "imageDescription": "imageDescription",
+        "ProjectTitle": "Project A",
+        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDemo": "url",
+        "ProjectRepo": "github url"
+    },
+    {
+        "imageSrc": "image.png",
+        "imageDescription": "imageDescription",
+        "ProjectTitle": "Project B",
+        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDemo": "url",
+        "ProjectRepo": "github url"
+    },
+    {
+        "imageSrc": "image.png",
+        "imageDescription": "imageDescription",
+        "ProjectTitle": "Project C",
+        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDemo": "url",
+        "ProjectRepo": "github url"
+    }
+]
