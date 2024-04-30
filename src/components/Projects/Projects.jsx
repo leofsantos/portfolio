@@ -8,7 +8,7 @@ export const Projects = () => {
       <div className={styles.elipse}></div>
       <div className={styles.content}>
         <div className={styles.title}>
-          <h1>Projects</h1>
+          <h1>Main Projects</h1>
         </div>
         <div className={styles.cards}>
           <Cards />

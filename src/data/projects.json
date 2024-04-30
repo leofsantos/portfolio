@@ -1,6 +1,6 @@
 [
     {
-        "imageSrc": "image.png",
+        "imageSrc": "general.png",
         "imageDescription": "imageDescription",
         "ProjectTitle": "Project A",
         "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
@@ -8,7 +8,7 @@
         "ProjectRepo": "github url"
     },
     {
-        "imageSrc": "image.png",
+        "imageSrc": "general.png",
         "imageDescription": "imageDescription",
         "ProjectTitle": "Project B",
         "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
@@ -16,7 +16,7 @@
         "ProjectRepo": "github url"
     },
     {
-        "imageSrc": "image.png",
+        "imageSrc": "general.png",
         "imageDescription": "imageDescription",
         "ProjectTitle": "Project C",
         "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
