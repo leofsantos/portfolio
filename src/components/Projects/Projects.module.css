@@ -35,3 +35,12 @@
   display: flex;
   margin: 0 200px;
 }
+
+@media screen and (max-width: 920px) {
+  .container {
+    height: fit-content;
+  }
+  .elipse {
+    height: 900px;
+  }
+}
