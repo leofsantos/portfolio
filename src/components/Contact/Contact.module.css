@@ -2,6 +2,13 @@
 
 .container {
   margin-top: 150px;
+  background-image: linear-gradient(
+    to top,
+    var(--color-secondary) 0%,
+    var(--color-secondary) 20%,
+    var(--color-main) 20%,
+    var(--color-main) 100%
+  );
 }
 
 .elipse {
@@ -9,13 +16,13 @@
   border-top-left-radius: 1000px;
   border-top-right-radius: 1000px;
   width: 100%;
-  height: 700px;
+  height: 900px;
   position: absolute;
   z-index: 0;
 }
 
 .content {
-  padding: 40px 0;
+  padding: 120px 0;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
