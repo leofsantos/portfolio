@@ -1,0 +1,23 @@
+@import "../../vars.css";
+
+.container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: var(--color-secondary);
+  color: var(--color-main);
+}
+
+.logos svg {
+  font-size: 40px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.logos svg:hover {
+  color: var(--color-highlight);
+  transition: all 0.8s;
+}
