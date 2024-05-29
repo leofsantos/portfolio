@@ -1,19 +1,20 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 100px;
+  margin-top: 200px;
   border-top-left-radius: 1000px;
   border-top-right-radius: 1000px;
   background-color: var(--color-secondary);
   height: fit-content;
   box-shadow: 0 0 50px var(--color-secondary);
+  padding-top: 40px;
 }
 
 .content {
-  padding: 50px 0;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 30px;
   position: relative;
   align-items: center;
 }
