@@ -76,18 +76,21 @@
   margin-top: 2vw;
 }
 
-.roundBtn {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 2.5vw;
-  height: 3.3vw;
-  border-radius: 50%;
-  border: 0px;
+.logos svg {
+  font-size: 40px;
+  margin: 40px 20px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.logos a {
+  text-decoration: none;
   color: var(--color-secondary);
-  margin: 0 1.3vw;
-  padding-top: 0.6vw;
-  background-color: transparent;
+}
+
+.logos svg:hover {
+  color: var(--color-highlight);
+  transition: all 0.8s;
 }
 
 .rectangleBtn {

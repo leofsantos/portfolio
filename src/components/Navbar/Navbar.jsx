@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a href="/">
+      <a href="#home">
         <img
           src={getImageUrl("mainIconLight.png")}
           alt="Main icon"
