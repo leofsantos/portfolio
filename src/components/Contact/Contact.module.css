@@ -72,3 +72,12 @@ input {
   box-shadow: 0 0 10px var(--color-main);
   transition: 0.8s all;
 }
+
+@media screen and (max-width: 920px) {
+  .form textarea, .form input {
+    width: 300px;
+  }
+  .form textarea {
+    height: 300px;
+  }
+}

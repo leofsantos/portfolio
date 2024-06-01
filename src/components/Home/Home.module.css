@@ -193,6 +193,7 @@
     transition: all 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
   }
 
   .main {
@@ -214,7 +215,7 @@
   }
 
   .elipse1,
-  .elipse2 {
+  .elipse2, .callToAction {
     display: none;
   }
 

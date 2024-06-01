@@ -85,6 +85,10 @@
     padding-top: 30px;
   }
 
+  .content {
+    border-top: 30px solid var(--color-main);
+  }
+
   .skill {
     margin: 30px;
   }
