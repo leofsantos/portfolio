@@ -1,26 +1,26 @@
 [
     {
-        "imageSrc": "general.png",
-        "imageDescription": "imageDescription",
+        "imageSrc": "loading.webp",
+        "imageDescription": "loading",
         "ProjectTitle": "Project A",
-        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDescription": "Project in progress.",
         "ProjectDemo": "url",
-        "ProjectRepo": "github url"
+        "ProjectRepo": "https://www.github.com/leofsantos"
     },
     {
-        "imageSrc": "general.png",
-        "imageDescription": "imageDescription",
+        "imageSrc": "loading.webp",
+        "imageDescription": "loading",
         "ProjectTitle": "Project B",
-        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDescription": "Project in progress.",
         "ProjectDemo": "url",
-        "ProjectRepo": "github url"
+        "ProjectRepo": "https://www.github.com/leofsantos"
     },
     {
-        "imageSrc": "general.png",
-        "imageDescription": "imageDescription",
+        "imageSrc": "loading.webp",
+        "imageDescription": "loading",
         "ProjectTitle": "Project C",
-        "ProjectDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic similique eos provident.",
+        "ProjectDescription": "Project in progress.",
         "ProjectDemo": "url",
-        "ProjectRepo": "github url"
+        "ProjectRepo": "https://www.github.com/leofsantos"
     }
 ]
