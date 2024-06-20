@@ -17,12 +17,8 @@ export const Cards = () => {
                 />
               </div>
               <div className={styles.text}>
-                <div>
-                  <h3>{skill.ProjectTitle}</h3>
-                </div>
-                <div>
-                  <p>{skill.ProjectDescription}</p>
-                </div>
+                <h3>{skill.ProjectTitle}</h3>
+                <p>{skill.ProjectDescription}</p>
               </div>
               <div className={styles.bottom}>
                 <button>

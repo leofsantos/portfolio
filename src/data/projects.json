@@ -1,6 +1,6 @@
 [
     {
-        "imageSrc": "loading.webp",
+        "imageSrc": "workInProgress.png",
         "imageDescription": "loading",
         "ProjectTitle": "Project A",
         "ProjectDescription": "Project in progress.",
@@ -8,7 +8,7 @@
         "ProjectRepo": "https://www.github.com/leofsantos"
     },
     {
-        "imageSrc": "loading.webp",
+        "imageSrc": "workInProgress.png",
         "imageDescription": "loading",
         "ProjectTitle": "Project B",
         "ProjectDescription": "Project in progress.",
@@ -16,7 +16,7 @@
         "ProjectRepo": "https://www.github.com/leofsantos"
     },
     {
-        "imageSrc": "loading.webp",
+        "imageSrc": "workInProgress.png",
         "imageDescription": "loading",
         "ProjectTitle": "Project C",
         "ProjectDescription": "Project in progress.",
