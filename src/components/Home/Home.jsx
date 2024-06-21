@@ -8,7 +8,7 @@ export const Home = () => {
         <div className={styles.container}>
           <div className={styles.profile}>
             <div className={styles.content}>
-              <img src="assets/profile.png" alt="" className={styles.picture} />
+              <img src="https://imgur.com/zcSkN9D.png" alt="" className={styles.picture} />
             </div>
           </div>
         </div>
