@@ -17,19 +17,34 @@ export const Navbar = () => {
       <div className={styles.menu}>
         <ul className={menuOpen ? styles.items : styles.itemsClose}>
           <li>
-            <a href="#about" className={styles.link}>About</a>
+            <a href="#about" className={styles.link}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#skills" className={styles.link}>Skills</a>
+            <a href="#skills" className={styles.link}>
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#projects" className={styles.link}>Projects</a>
+            <a href="#projects" className={styles.link}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact" className={styles.link}>Contact</a>
+            <a href="#contact" className={styles.link}>
+              Contact
+            </a>
           </li>
           <li className={styles.resume}>
-            <button><a href="/assets/pdf/Leonardo-dos-Santos-Cv.pdf" download="">Resume</a></button>
+            <button>
+              <a
+                href="https://drive.google.com/file/d/1kPFkoQ8ie5iGKFA1WRXDs--_9m19KPiV/view?usp=sharing"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </button>
           </li>
         </ul>
       </div>
